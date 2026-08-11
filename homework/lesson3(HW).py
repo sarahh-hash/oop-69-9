@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-class Hero:
+class Hero(ABC):
     def __init__(self, name, level, health, strength):
         self.name = name
         self.level = level
